@@ -17,7 +17,7 @@ const toggleBtn = document.querySelector('[data-toggle-btn]'),
         toggleBtn.addEventListener('click', function(){
           toggleMenu.classList.toggle('active');
           contentWidth.classList.toggle('active');
-          modalOverlay.classList.add('enable');
+          modalOverlay.classList.toggle('enable');
       });
       modalOverlay.addEventListener('click', function(){
         toggleMenu.classList.add('active');
